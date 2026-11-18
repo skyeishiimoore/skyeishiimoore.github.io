@@ -52,7 +52,11 @@ body {
 }
 .menu {
     display: flex;
-    margin-right: 1rem;
+    /* lets links move onto another line */
+    /* centers links */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
     gap: 5rem;
     list-style: none;
 }
